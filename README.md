@@ -56,7 +56,7 @@ else
 ```
 Формат записи функций
 
-#### functionName
+### functionName
 
     Входные параметры [name_param_1,name_param_2]
     Выходные данные JSON
@@ -80,20 +80,20 @@ else
 
 -----
 
-##### addtmpreview
+## addtmpreview
 Добавление нового отзыва
     Входные параметры [text,userid]
     Выходные данные JSON отзыва
 
  -----
 
-##### login
+## login
 Авторизация
     Входные параметры []
     Выходные данные userid
  -----
 
-##### reviewtocommon
+## reviewtocommon
 ##### Доступ "Admin"
 Перенос отзыва из временной базы в общую
     Входные параметры [idreview,iduser]
@@ -102,7 +102,7 @@ else
 
  -----
 
-##### getreview
+## getreview
 Получение отзывов
     Входные параметры [count,offset,iduser]
     Выходные данные массив отзывов в формате JSON [...,....,....]
@@ -119,7 +119,7 @@ else
 
  -----
 
-##### removereview
+## removereview
 Удаление отзыва
     Входные параметры [idreview,iduser]
     Выходные данные "success" при успешном удалении : NULL иначе
